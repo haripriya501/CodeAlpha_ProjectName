@@ -1,0 +1,59 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# IDE Files
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Byte-compiled Files
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Log Files
+*.log
+
+# ==============================
+# AI Model Files (Ignored)
+# ==============================
+
+model.keras
+*.h5
+
+# ==============================
+# Optional (Uncomment if needed)
+# ==============================
+
+# notes.pkl
+# output/generated_music.mid
